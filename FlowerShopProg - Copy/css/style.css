@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    margin: 0;
+    background-image: url("../img/Group 1 (2).png");
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    margin: 20px 0;
+    height: 150px;
+    justify-content: center;
+}
+
+hr {
+    height: 8px;
+    background-color: black;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: "Cinzel Decorative", serif;
+    text-align: center;
+    margin: 0;
+    padding: 15px 0;
+}
+
+main {
+    display: flex;
+    margin: 0 5vw;
+}
+
+.flowers {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.infoSection {
+    width: 20%;
+    background-color: #f2e9d8;
+    margin-top: 1%;
+    height: 500px;
+    border-width: 1px 3px 5px 1px;
+    border-style: outset;
+    border-color: black;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.infoSection h2, #first-title {
+    display: inline;
+}
+
+#first-title {
+    font-size: 32px;
+}
+
+.details-titles {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.details-answers {
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0 0 5px 20px;
+}
+
+.flowerCards  {
+    height: auto;
+    width: 22%;
+    margin: 1%;
+    background-color: #f2e9d8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-width: 1px 3px 5px 1px;
+    border-style: outset;
+    border-color: black;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.flowerCards:hover {
+    box-shadow: 2px 2px 15px #000;
+    .img-flower {
+        box-shadow: 2px 2px 8px #454545;
+    }
+    .flower-card-title {
+        text-decoration: underline;
+    }
+}
+
+.img-flower {
+    width: 80%;
+    height: auto;
+    box-shadow: 2px 2px 8px #828282;
+}
+
+.nofavorite-star {
+    color: black;
+}
+
+.star {
+    font-size: 40px;
+    margin: 5px;
+    transition: 0.15s ease;
+    cursor: pointer;
+}
+
+.star:hover {
+    color: #747474;
+    text-shadow: 1px 1px 3px #b5b5b5;
+}
+
+.star:active {
+    color: #464646;
+    font-size: 39px;
+    margin: 6px 6px 6px 5px;
+}
+
+.favorite-star {
+    color: #11822f;
+    font-size: 40px;
+    margin: 5px;
+}
+
+.under-photo {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.details {
+    font-size: 20px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f2e9d8;
+    border-width: 1px 3px 5px 1px;
+    border-style: outset;
+    border-color: black;
+    border-radius: 10px;
+    transition: 0.15s ease;
+    cursor: pointer;
+}
+
+.details:hover {
+    box-shadow: 2px 2px 8px #000;
+    font-weight: 900;
+}
+
+.details:active {
+    box-shadow: 1px 1px 5px #393939;
+    font-size: 18px;
+    padding: 11px;
+    font-weight: 900;
+}
+
+footer {
+    margin: 0;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 900;
+    padding: 5px;
+    transition: 0.15s ease;
+}
+
+a:hover {
+    font-size: 29px;
+    padding: 4.5px;
+    text-shadow: 1px 1px 5px #494949;
+}
+
+a:active {
+    font-size: 27px;
+    padding: 5.5px;
+    text-shadow: 1px 1px 1px #494949;
+}
+
